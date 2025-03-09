@@ -42,4 +42,4 @@ echo "🚀 Starting the arbitrage bot..."
 nohup python3 snakeflap.py > logs/arbitrage.log 2>&1 &
 
 echo "✅ Arbitrage bot is running in the background!"
-echo "📊 Monitor bot status at: http://localhost:5000/status"
+echo "📊 Monitor bot status at: http://localhost 6540/status"
