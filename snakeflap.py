@@ -133,5 +133,5 @@ def main():
 # Start the bot and Flask monitoring
 if __name__ == "__main__":
     from threading import Thread
-    Thread(target=lambda: app.run(host="0.0.0.0", port=5000)).start()
+    Thread(target=lambda: app.run(host="0.0.0.0", port=6540)).start()
     main()
