@@ -3,10 +3,6 @@ set -e  # Exit on any error
 
 echo "🚀 Starting Flap Arbitrage Deployment..."
 
-# ✅ Install required dependencies
-echo "📦 Installing Node.js and Python dependencies..."
-npm install --save-dev hardhat @openzeppelin/contracts @nomicfoundation/hardhat-toolbox
-pip3 install -q web3 flask requests python-dotenv
 
 # ✅ Compile the Solidity contract
 echo "🔨 Compiling Flap.sol..."
