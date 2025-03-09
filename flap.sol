@@ -4,17 +4,7 @@ pragma solidity ^0.8.19;
 import "@aave/core-v3/contracts/interfaces/IPool.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
-contract Flap {
-    address public owner;
-    IPool private aavePool;
-    uint256 public minProfit = 5 * 10**18; // $5 minimum profit
-    uint256 public maxProfit = 100 * 10**18; // $100 maximum profit
-
-    event FlashLoanExecuted(address token, uint256 amount, uint256 profit);
-    
-    constructor(address _aavePool) {
-        owner = msg.sender;
-        aavePool = IPool(_aavePool);
+c
     }
 
     modifier onlyOwner() {
